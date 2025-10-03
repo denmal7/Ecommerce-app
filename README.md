@@ -1,16 +1,42 @@
-# React + Vite
+# Mini E-Commerce UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + TailwindCSS mini e-commerce app with product listing, cart management, and a mock checkout flow.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+👉 [View App Here](https://denmal-minishop.netlify.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Product listing grid with images, names, and prices
+- Add/remove items from cart (Context API)
+- Checkout page with order summary
+- Mock payment success & order history
+- Responsive design with TailwindCSS
+- Animated stats & scroll reveals (Framer Motion)
 
-## React Compiler
+## 🛠 Tech Stack
+- [React](https://react.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React](https://lucide.dev/) for icons
+- [GitHub Pages](https://pages.github.com/) for deployment
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Getting Started
 
-## Expanding the ESLint configuration
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+2. Install dependencies:
+    npm install
+3. Run locally:
+   npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Future Improvements
+- Add user authentication
+- Connect to a real payment API (Stripe)
+- Admin dashboard for managing products
+
+
+📜 License
+
+This project is open source under the MIT License
+
